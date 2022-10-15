@@ -1,0 +1,9 @@
+camel:
+  springboot:
+    main-run-controller: true
+    use-mdc-logging: true
+    mdc-logging-keys-pattern: "*"
+
+spring:
+  profiles:
+    active: json-logging

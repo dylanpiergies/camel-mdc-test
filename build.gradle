@@ -1,0 +1,38 @@
+import org.springframework.boot.gradle.plugin.SpringBootPlugin
+
+plugins {
+  id 'java'
+  id 'org.springframework.boot' version '2.7.4'
+}
+
+group 'org.dylanpiergies.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation platform(SpringBootPlugin.BOM_COORDINATES)
+  implementation platform('com.fasterxml.jackson:jackson-bom:2.13.4')
+  implementation platform('org.apache.camel.springboot:camel-spring-boot-dependencies:3.19.0')
+
+  implementation 'org.apache.camel.springboot:camel-bean-starter'
+  implementation 'org.apache.camel.springboot:camel-core-starter'
+  implementation 'org.apache.camel.springboot:camel-direct-starter'
+  implementation 'org.apache.camel.springboot:camel-file-starter'
+  implementation 'org.apache.camel.springboot:camel-mock-starter'
+
+  implementation 'org.apache.camel:camel-endpointdsl'
+
+  runtimeOnly 'ch.qos.logback.contrib:logback-json-classic:0.1.5'
+  runtimeOnly 'ch.qos.logback.contrib:logback-jackson:0.1.5'
+  runtimeOnly 'com.fasterxml.jackson.core:jackson-databind'
+
+  testImplementation 'org.springframework.boot:spring-boot-starter-test'
+  testImplementation 'org.apache.camel:camel-test-spring-junit5'
+}
+
+test {
+  useJUnitPlatform()
+}

@@ -1,0 +1,383 @@
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+{
+  "timestamp" : "2022-10-15 13:41:18.830",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "logger" : "org.dylanpiergies.camel.mdc.RouteTest",
+  "message" : "Starting RouteTest using Java 17.0.4.1 on localhost with PID 3441826 (started by user in /home/user/camel-mdc-test)",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:18.844",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "logger" : "org.dylanpiergies.camel.mdc.RouteTest",
+  "message" : "The following 1 profile is active: \"json-logging\"",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:20.831",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "logger" : "org.dylanpiergies.camel.mdc.RouteTest",
+  "message" : "Started RouteTest in 2.516 seconds (JVM running for 3.724)",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:20.837",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "logger" : "org.apache.camel.test.spring.junit5.CamelAnnotationsHandler",
+  "message" : "Setting shutdown timeout to [10 SECONDS] on CamelContext with name [camelContext].",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:20.924",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "logger" : "org.apache.camel.test.spring.junit5.CamelSpringBootExecutionListener",
+  "message" : "CamelSpringBootExecutionListener before: class org.dylanpiergies.camel.mdc.RouteTest.testMDCForwarding",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:20.925",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "logger" : "org.apache.camel.test.spring.junit5.CamelSpringBootExecutionListener",
+  "message" : "Initialized CamelSpringBootExecutionListener now ready to start CamelContext",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:20.927",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "logger" : "org.apache.camel.test.spring.junit5.CamelAnnotationsHandler",
+  "message" : "Starting CamelContext with name [camelContext].",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:21.069",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "camel.contextId" : "camel-1"
+  },
+  "logger" : "org.apache.camel.impl.engine.AbstractCamelContext",
+  "message" : "Apache Camel 3.19.0 (camel-1) is starting",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:21.070",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "camel.contextId" : "camel-1"
+  },
+  "logger" : "org.apache.camel.impl.engine.AbstractCamelContext",
+  "message" : "MDC logging (keys-pattern: *) is enabled on CamelContext: camel-1",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:21.075",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "camel.contextId" : "camel-1"
+  },
+  "logger" : "org.apache.camel.spring.boot.CamelSpringBootApplicationListener",
+  "message" : "Starting CamelMainRunController to ensure the main thread keeps running",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:21.077",
+  "level" : "INFO",
+  "thread" : "CamelMainRunController",
+  "logger" : "org.apache.camel.main.MainSupport",
+  "message" : "Apache Camel (Main) 3.19.0 is starting",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:21.085",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "camel.contextId" : "camel-1"
+  },
+  "logger" : "org.apache.camel.impl.engine.AbstractCamelContext",
+  "message" : "Routes startup (started:1)",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:21.086",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "camel.contextId" : "camel-1"
+  },
+  "logger" : "org.apache.camel.impl.engine.AbstractCamelContext",
+  "message" : "    Started route1 (direct://start)",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:21.086",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "camel.contextId" : "camel-1"
+  },
+  "logger" : "org.apache.camel.impl.engine.AbstractCamelContext",
+  "message" : "Apache Camel 3.19.0 (camel-1) started in 221ms (build:64ms init:141ms start:16ms)",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:21.468",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "camel.exchangeId" : "2A06F92102A08EF-0000000000000000",
+    "camel.contextId" : "camel-1",
+    "camel.messageId" : "2A06F92102A08EF-0000000000000000",
+    "camel.routeId" : "route1",
+    "custom.exchangeId" : "2A06F92102A08EF-0000000000000000"
+  },
+  "logger" : "route1",
+  "message" : "Log from Processor",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:21.470",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "camel.exchangeId" : "2A06F92102A08EF-0000000000000000",
+    "camel.contextId" : "camel-1",
+    "camel.routeId" : "route1",
+    "custom.exchangeId" : "2A06F92102A08EF-0000000000000000",
+    "camel.messageId" : "2A06F92102A08EF-0000000000000000"
+  },
+  "logger" : "route1",
+  "message" : "Log from route",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:22.475",
+  "level" : "INFO",
+  "thread" : "Camel (camel-1) thread #1 - Delay",
+  "mdc" : {
+    "camel.exchangeId" : "2A06F92102A08EF-0000000000000000",
+    "camel.contextId" : "camel-1",
+    "camel.messageId" : "2A06F92102A08EF-0000000000000000",
+    "camel.routeId" : "route1",
+    "custom.exchangeId" : "2A06F92102A08EF-0000000000000000"
+  },
+  "logger" : "route1",
+  "message" : "Delayed log from route",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:22.478",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "camel.exchangeId" : "2A06F92102A08EF-0000000000000001",
+    "camel.contextId" : "camel-1",
+    "camel.routeId" : "route1",
+    "custom.exchangeId" : "2A06F92102A08EF-0000000000000001",
+    "camel.messageId" : "2A06F92102A08EF-0000000000000001"
+  },
+  "logger" : "route1",
+  "message" : "Log from Processor",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:22.479",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "camel.exchangeId" : "2A06F92102A08EF-0000000000000001",
+    "camel.contextId" : "camel-1",
+    "camel.routeId" : "route1",
+    "custom.exchangeId" : "2A06F92102A08EF-0000000000000000",
+    "camel.messageId" : "2A06F92102A08EF-0000000000000001"
+  },
+  "logger" : "route1",
+  "message" : "Log from route",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:23.481",
+  "level" : "INFO",
+  "thread" : "Camel (camel-1) thread #1 - Delay",
+  "mdc" : {
+    "camel.exchangeId" : "2A06F92102A08EF-0000000000000001",
+    "camel.contextId" : "camel-1",
+    "camel.routeId" : "route1",
+    "custom.exchangeId" : "2A06F92102A08EF-0000000000000000",
+    "camel.messageId" : "2A06F92102A08EF-0000000000000001"
+  },
+  "logger" : "route1",
+  "message" : "Delayed log from route",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:23.485",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "camel.exchangeId" : "2A06F92102A08EF-0000000000000002",
+    "camel.contextId" : "camel-1",
+    "camel.routeId" : "route1",
+    "custom.exchangeId" : "2A06F92102A08EF-0000000000000002",
+    "camel.messageId" : "2A06F92102A08EF-0000000000000002"
+  },
+  "logger" : "route1",
+  "message" : "Log from Processor",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:23.486",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "camel.exchangeId" : "2A06F92102A08EF-0000000000000002",
+    "camel.contextId" : "camel-1",
+    "camel.routeId" : "route1",
+    "custom.exchangeId" : "2A06F92102A08EF-0000000000000000",
+    "camel.messageId" : "2A06F92102A08EF-0000000000000002"
+  },
+  "logger" : "route1",
+  "message" : "Log from route",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:24.489",
+  "level" : "INFO",
+  "thread" : "Camel (camel-1) thread #2 - Delay",
+  "mdc" : {
+    "camel.exchangeId" : "2A06F92102A08EF-0000000000000002",
+    "camel.contextId" : "camel-1",
+    "camel.messageId" : "2A06F92102A08EF-0000000000000002",
+    "camel.routeId" : "route1",
+    "custom.exchangeId" : "2A06F92102A08EF-0000000000000000"
+  },
+  "logger" : "route1",
+  "message" : "Delayed log from route",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:24.490",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "custom.exchangeId" : "2A06F92102A08EF-0000000000000000"
+  },
+  "logger" : "org.apache.camel.component.mock.MockEndpoint",
+  "message" : "Asserting: mock://end is satisfied",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:24.506",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "custom.exchangeId" : "2A06F92102A08EF-0000000000000000"
+  },
+  "logger" : "org.dylanpiergies.camel.mdc.RouteTest",
+  "message" : "********************************************************************************",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:24.508",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "custom.exchangeId" : "2A06F92102A08EF-0000000000000000"
+  },
+  "logger" : "org.dylanpiergies.camel.mdc.RouteTest",
+  "message" : "Testing done: testMDCForwarding (org.dylanpiergies.camel.mdc.RouteTest)",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:24.510",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "custom.exchangeId" : "2A06F92102A08EF-0000000000000000"
+  },
+  "logger" : "org.dylanpiergies.camel.mdc.RouteTest",
+  "message" : "Took: 3s417ms (3417 millis)",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:24.512",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "custom.exchangeId" : "2A06F92102A08EF-0000000000000000"
+  },
+  "logger" : "org.dylanpiergies.camel.mdc.RouteTest",
+  "message" : "********************************************************************************",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:24.514",
+  "level" : "INFO",
+  "thread" : "Test worker",
+  "mdc" : {
+    "custom.exchangeId" : "2A06F92102A08EF-0000000000000000"
+  },
+  "logger" : "org.apache.camel.test.spring.junit5.CamelSpringBootExecutionListener",
+  "message" : "CamelSpringBootExecutionListener after: class org.dylanpiergies.camel.mdc.RouteTest.testMDCForwarding",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:24.539",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "mdc" : {
+    "camel.contextId" : "camel-1"
+  },
+  "logger" : "org.apache.camel.impl.engine.AbstractCamelContext",
+  "message" : "Apache Camel 3.19.0 (camel-1) is shutting down (timeout:10s)",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:24.546",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "mdc" : {
+    "camel.contextId" : "camel-1"
+  },
+  "logger" : "org.apache.camel.impl.engine.AbstractCamelContext",
+  "message" : "Routes stopped (stopped:1)",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:24.546",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "mdc" : {
+    "camel.contextId" : "camel-1"
+  },
+  "logger" : "org.apache.camel.impl.engine.AbstractCamelContext",
+  "message" : "    Stopped route1 (direct://start)",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-10-15 13:41:24.550",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "mdc" : {
+    "camel.contextId" : "camel-1"
+  },
+  "logger" : "org.apache.camel.impl.engine.AbstractCamelContext",
+  "message" : "Apache Camel 3.19.0 (camel-1) shutdown in 11ms (uptime:3s)",
+  "context" : "default"
+}
